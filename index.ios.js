@@ -1,23 +1,12 @@
 'use strict'
 import React, { Component } from 'react';
 import {AppRegistry, StyleSheet, Text, View } from 'react-native';
-import StatusBarBackground from './app/components/StatusBarBackground'
+
 class littertracker extends Component {
   render() {
     return (
-     <StatusBarBackground style={{backgroundColor: "green"}} />
-      // <View style={styles.container}>
-        // <Text style={ styles.welcome }>
-        //   Welcome to you Litter Tracker!
-        // </Text>
-      //   <Text style={styles.instructions}>
-      //     To get started, edit index.ios.js
-      //   </Text>
-      //   <Text style={styles.instructions}>
-      //     Press Cmd+R to reload,{'\n'}
-      //     Cmd+D or shake for dev menu
-      //   </Text>
-      // </View>
+        <Text style={styles.welcome}>Hello World!
+        </Text>
     );
   }
 }
@@ -32,7 +21,7 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
+    margin: 15,
   },
   instructions: {
     textAlign: 'center',
