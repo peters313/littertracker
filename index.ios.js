@@ -1,14 +1,11 @@
+'use strict'
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-
+import {AppRegistry, StyleSheet, Text, View } from 'react-native';
+import StatusBarBackground from './app/components/StatusBarBackground'
 class littertracker extends Component {
   render() {
     return (
+    // <StatusBarBackground style={{backgroundColor: "green"}} />
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Welcome to you Litter Tracker!
