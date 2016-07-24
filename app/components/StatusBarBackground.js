@@ -1,25 +1,25 @@
 'use strict'
-import React, { Component } from 'react'
-import { View } from 'react-native'
+import React, { Component } from 'react';
+import { Text, View, StyleSheet } from 'react-native';
 
 class StatusBarBackground extends Component {
 
   render() {
     return (
-      <View style={[styles.statusBarBackground, this.props.style || {}]}>
+      <View style={[styles.statusBarBackground, this.props.styles || {}]}>
       </View>
     )
   }
 
 }
 
-const styles = React.StyleSheet.create({
+const styles = StyleSheet.create({
 
   statusBarBackground: {
     height: 20,
-    backgroundColor: "white"
+    backgroundColor: "green"
   }
 
-})
+});
 
-module.exports = StatusBarBackground
+module.exports = StatusBarBackground;
