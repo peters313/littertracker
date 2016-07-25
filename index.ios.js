@@ -1,12 +1,16 @@
 'use strict'
 import React, { Component } from 'react';
 import {AppRegistry, StyleSheet, Text, View } from 'react-native';
+import textInput from './app/components/textInput';
 
 class littertracker extends Component {
   render() {
     return (
-        <Text style={styles.welcome}>Hello World!
+        <View>
+        <Text style={styles.welcome}>Welcome to your Litter Tracker!
         </Text>
+      <textInput />
+        </View>
     );
   }
 }
@@ -22,6 +26,8 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     margin: 15,
+    marginTop: 50,
+    backgroundColor: 'skyblue'
   },
   instructions: {
     textAlign: 'center',
