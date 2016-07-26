@@ -17,3 +17,5 @@ class textInput extends Component {
     );
   }
 }
+
+AppRegistry.registerComponent('littertracker', () => textInput);

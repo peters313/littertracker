@@ -1,15 +1,19 @@
 'use strict'
 import React, { Component } from 'react';
 import {AppRegistry, StyleSheet, Text, View } from 'react-native';
-import textInput from './app/components/textInput';
+import textInput from './app/components/textInput'
 
 class littertracker extends Component {
   render() {
+
     return (
+
         <View>
+          <textInput>
         <Text style={styles.welcome}>Welcome to your Litter Tracker!
         </Text>
-      <textInput />
+        </textInput>
+
         </View>
     );
   }
