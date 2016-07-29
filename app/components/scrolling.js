@@ -8,11 +8,13 @@ import  {AppRegistry,
   TouchableOpacity,
   Image
 } from 'react-native';
+import StarterImage from './app/components/image';
 
 class littertracker extends Component {
   render() {
     return (
         <View>
+          <StarterImage/>
           <ScrollView
             ref={(scrollView) => { _scrollView = scrollView; }}
             automaticallyAdjustContentInsets={false}
