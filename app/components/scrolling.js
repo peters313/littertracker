@@ -14,7 +14,19 @@ class littertracker extends Component {
   render() {
     return (
         <View>
-          <StarterImage/>
+          <StatusBar
+            backgroundColor="blue"
+            barStyle="light-content"
+          />
+          <Navigator
+            initialRoute={{statusBarHidden: true}}
+            renderScene={(route, navigator) =>
+              <View>
+                <StatusBar hidden={route.statusBarHidden} />
+                ...
+              </View>
+            }
+          />
           <ScrollView
             ref={(scrollView) => { _scrollView = scrollView; }}
             automaticallyAdjustContentInsets={false}

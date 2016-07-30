@@ -1,3 +1,3 @@
-import littertracker from './app/components/image';
+import littertracker from './app/components/scrolling';
 
 export default littertracker;
