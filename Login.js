@@ -16,7 +16,9 @@ class Login extends React.Component {
         justifyContent: 'center',
         alignItems: 'center',
         marginTop: 200,
-        padding: 10}}>
+        padding: 10,
+      backgroundColor: 'skyblue'
+    }}>
         <Text style={{color:'red'}}>Litter Tracker Login</Text>
         <TextInput
           style={{height: 40, borderColor: 'gray', borderWidth: 1}}
