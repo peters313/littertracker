@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {AppRegistry, StyleSheet, Text, View} from 'react-native';
 var Login = require('./Login');
 var Header = require('./Header');
+var Footer = require('./Footer');
 
 class littertracker extends Component {
   render() {
@@ -10,6 +11,7 @@ class littertracker extends Component {
         <View>
         <Header />
         <Login />
+        <Footer />
         </View>
     );
   }
