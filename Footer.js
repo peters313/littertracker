@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
     color: 'red',
     fontWeight: 'bold',
     fontSize: 30,
-    backgroundColor: 'black'
+    backgroundColor: 'black',
+    marginTop: 200
   }
 });
 

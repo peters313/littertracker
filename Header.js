@@ -15,6 +15,7 @@ class Header extends Component {
 
 const styles = StyleSheet.create({
   text: {
+    marginTop: 18,
     color: 'red',
     fontWeight: 'bold',
     fontSize: 30,
