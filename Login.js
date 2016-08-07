@@ -21,10 +21,10 @@ class Login extends React.Component {
     }}>
         <Text style={{color:'red'}}>Litter Tracker Login</Text>
         <TextInput
-          style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+          style={styles.inputBox}
            placeholder="Username"/>
           <TextInput
-            style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+            style={styles.inputBox}
              placeholder="Password"/>
              <TouchableHighlight style={styles.button}>
                  <Text style={styles.buttonText}>Log in</Text>
@@ -48,6 +48,11 @@ const styles = StyleSheet.create({
   buttonText: {
       color: '#fff',
       fontSize: 24
+  },
+  inputBox: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1
   }
 })
 
