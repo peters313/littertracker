@@ -10,16 +10,8 @@ class Login extends React.Component {
   }
   render() {
     return(
-      <View style={{
-        flex: 1,
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginTop: 200,
-        padding: 10,
-      backgroundColor: 'skyblue'
-    }}>
-        <Text style={{color:'red'}}>Litter Tracker Login</Text>
+      <View style={styles.mainContent}>
+        <Text>Login</Text>
         <TextInput
           style={styles.inputBox}
            placeholder="Username"/>
@@ -53,6 +45,13 @@ const styles = StyleSheet.create({
     height: 40,
     borderColor: 'gray',
     borderWidth: 1
+  },
+  mainContent: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    marginTop: 200,
+    padding: 10
   }
 })
 

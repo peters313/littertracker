@@ -7,7 +7,7 @@ class Header extends Component {
   render(){
     return(
       <View>
-      <Text style={styles.text}>HEADER</Text>
+      <Text style={styles.text}>Litter Tracker</Text>
       </View>
     )
   }
