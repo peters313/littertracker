@@ -18,7 +18,7 @@ class Login extends React.Component {
           <TextInput
             style={styles.inputBox}
              placeholder="Password"/>
-             <TouchableHighlight style={styles.button}>
+           <TouchableHighlight onPress={this._onPressButton} style={styles.button}>
                  <Text style={styles.buttonText}>Log in</Text>
              </TouchableHighlight>
       </View>

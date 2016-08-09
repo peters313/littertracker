@@ -7,7 +7,7 @@ class Footer extends Component {
   render(){
     return(
       <View>
-      <Text style={styles.text}>FOOTER</Text>
+      <Text style={styles.text}>Litter Tracker</Text>
       </View>
     )
   }
